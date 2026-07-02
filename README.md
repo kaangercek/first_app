@@ -1,4 +1,4 @@
-# Zar Uygulamasi
+# Zar Uygulaması
 
 <p align="center">
   <img src="assets/image/dice-1.png" width="72" alt="Zar 1" />
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  Mor gradient arka plan, butonla degisen zar gorseli ve temel Flutter mantigini gosteren kucuk bir pratik proje.
+  Mor gradient arka plan, butonla değişen zar görseli ve temel Flutter mantığını gösteren küçük bir pratik proje.
 </p>
 
 <p align="center">
@@ -19,27 +19,27 @@
   <img src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white" alt="Android" />
 </p>
 
-## Proje Hakkinda
+## Proje Hakkında
 
-Bu uygulama ekranda bir zar gosterir ve kullanici `Roll Dice` butonuna bastiginda zar gorselini degistirir.
+Bu uygulama ekranda bir zar gösterir ve kullanıcı `Roll Dice` butonuna bastığında zar görselini değiştirir.
 
-Kucuk bir proje olsa da Flutter ogrenmeye baslayan biri icin onemli bazi temel konulari kapsar:
+Küçük bir proje olsa da Flutter öğrenmeye başlayan biri için önemli bazı temel konuları kapsar:
 
-- `StatefulWidget` kullanimi
-- `setState()` ile arayuzu guncelleme
-- yerel gorsel dosyalarini asset olarak kullanma
-- arayuzu kucuk ve okunabilir widget'lara ayirma
-- basit ama temiz bir ekran olusturma
+- `StatefulWidget` kullanımı
+- `setState()` ile arayüzü güncelleme
+- yerel görsel dosyalarını asset olarak kullanma
+- arayüzü küçük ve okunabilir widget'lara ayırma
+- basit ama temiz bir ekran oluşturma
 
-## Ozellikler
+## Özellikler
 
 - Mor tonlarda gradient arka plan
-- Butona basildiginda degisen zar gorseli
-- Koyu arka planda okunakli buton yazisi
-- `dice-1.png` ile `dice-6.png` arasinda asset tabanli zar gorselleri
-- Baslangic seviyesi icin temiz ve anlasilir proje yapisi
+- Butona basıldığında değişen zar görseli
+- Koyu arka planda okunaklı buton yazısı
+- `dice-1.png` ile `dice-6.png` arasında asset tabanlı zar görselleri
+- Başlangıç seviyesi için temiz ve anlaşılır proje yapısı
 
-## Proje Yapisi
+## Proje Yapısı
 
 ```text
 lib/
@@ -58,14 +58,14 @@ assets/
     dice-6.png
 ```
 
-## Yerelde Calistirma
+## Yerelde Çalıştırma
 
 ```bash
 flutter pub get
 flutter run
 ```
 
-Android emulator uzerinde dogrudan calistirmak istersen:
+Android emulator üzerinde doğrudan çalıştırmak istersen:
 
 ```bash
 flutter run -d emulator-5554
@@ -73,19 +73,19 @@ flutter run -d emulator-5554
 
 ## Bu Projede Neler Pratik Ediliyor
 
-- tekrar kullanilabilir widget yazma
-- constructor ile veri gonderme
-- widget state yonetimi
-- buton ile mantik baglama
-- `pubspec.yaml` icinde asset tanimlama
+- tekrar kullanılabilir widget yazma
+- constructor ile veri gönderme
+- widget state yönetimi
+- buton ile mantık bağlama
+- `pubspec.yaml` içinde asset tanımlama
 
-## Kullanilan Teknolojiler
+## Kullanılan Teknolojiler
 
 - Flutter
 - Dart
-- Material Design widget'lari
+- Material Design widget'ları
 
 ## Not
 
-Bu depo ilk Flutter denemelerinden biri olarak basladi ve sonrasinda kucuk bir zar uygulamasina donustu.  
-Amac, Flutter temellerini ogrenirken sade, okunabilir ve gelistirmesi kolay bir ornek proje sunmak.
+Bu depo ilk Flutter denemelerinden biri olarak başladı ve sonrasında küçük bir zar uygulamasına dönüştü.  
+Amaç, Flutter temellerini öğrenirken sade, okunabilir ve geliştirmesi kolay bir örnek proje sunmak.
