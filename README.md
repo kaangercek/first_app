@@ -1,16 +1,16 @@
-# Dice Roller App
+# Zar Uygulamasi
 
 <p align="center">
-  <img src="assets/image/dice-1.png" width="72" alt="Dice face 1" />
-  <img src="assets/image/dice-2.png" width="72" alt="Dice face 2" />
-  <img src="assets/image/dice-3.png" width="72" alt="Dice face 3" />
-  <img src="assets/image/dice-4.png" width="72" alt="Dice face 4" />
-  <img src="assets/image/dice-5.png" width="72" alt="Dice face 5" />
-  <img src="assets/image/dice-6.png" width="72" alt="Dice face 6" />
+  <img src="assets/image/dice-1.png" width="72" alt="Zar 1" />
+  <img src="assets/image/dice-2.png" width="72" alt="Zar 2" />
+  <img src="assets/image/dice-3.png" width="72" alt="Zar 3" />
+  <img src="assets/image/dice-4.png" width="72" alt="Zar 4" />
+  <img src="assets/image/dice-5.png" width="72" alt="Zar 5" />
+  <img src="assets/image/dice-6.png" width="72" alt="Zar 6" />
 </p>
 
 <p align="center">
-  A small Flutter practice project with a purple gradient background and a working dice roller.
+  Mor gradient arka plan, butonla degisen zar gorseli ve temel Flutter mantigini gosteren kucuk bir pratik proje.
 </p>
 
 <p align="center">
@@ -19,27 +19,27 @@
   <img src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white" alt="Android" />
 </p>
 
-## Overview
+## Proje Hakkinda
 
-This app shows a dice on the screen and updates it every time the user presses the `Roll Dice` button.
+Bu uygulama ekranda bir zar gosterir ve kullanici `Roll Dice` butonuna bastiginda zar gorselini degistirir.
 
-It is a simple project, but it covers a few important Flutter basics:
+Kucuk bir proje olsa da Flutter ogrenmeye baslayan biri icin onemli bazi temel konulari kapsar:
 
-- working with `StatefulWidget`
-- updating the UI with `setState()`
-- using local image assets
-- splitting UI into smaller widgets
-- building a simple but polished interface
+- `StatefulWidget` kullanimi
+- `setState()` ile arayuzu guncelleme
+- yerel gorsel dosyalarini asset olarak kullanma
+- arayuzu kucuk ve okunabilir widget'lara ayirma
+- basit ama temiz bir ekran olusturma
 
-## Features
+## Ozellikler
 
-- Purple gradient background
-- Dice image changes on button press
-- Button text styled for visibility on dark background
-- Asset-based dice faces from `dice-1.png` to `dice-6.png`
-- Clean beginner-friendly project structure
+- Mor tonlarda gradient arka plan
+- Butona basildiginda degisen zar gorseli
+- Koyu arka planda okunakli buton yazisi
+- `dice-1.png` ile `dice-6.png` arasinda asset tabanli zar gorselleri
+- Baslangic seviyesi icin temiz ve anlasilir proje yapisi
 
-## Project Structure
+## Proje Yapisi
 
 ```text
 lib/
@@ -58,34 +58,34 @@ assets/
     dice-6.png
 ```
 
-## Run Locally
+## Yerelde Calistirma
 
 ```bash
 flutter pub get
 flutter run
 ```
 
-If you want to run it directly on Android emulator:
+Android emulator uzerinde dogrudan calistirmak istersen:
 
 ```bash
 flutter run -d emulator-5554
 ```
 
-## What This Project Practices
+## Bu Projede Neler Pratik Ediliyor
 
-- creating reusable widgets
-- passing values through constructors
-- managing widget state
-- connecting UI actions to logic
-- displaying app assets correctly with `pubspec.yaml`
+- tekrar kullanilabilir widget yazma
+- constructor ile veri gonderme
+- widget state yonetimi
+- buton ile mantik baglama
+- `pubspec.yaml` icinde asset tanimlama
 
-## Tech Stack
+## Kullanilan Teknolojiler
 
 - Flutter
 - Dart
-- Material Design widgets
+- Material Design widget'lari
 
-## Notes
+## Not
 
-This repository started as a first Flutter learning project and was later turned into a small dice roller demo.  
-The goal is to keep it simple, readable, and easy to build on while learning Flutter fundamentals.
+Bu depo ilk Flutter denemelerinden biri olarak basladi ve sonrasinda kucuk bir zar uygulamasina donustu.  
+Amac, Flutter temellerini ogrenirken sade, okunabilir ve gelistirmesi kolay bir ornek proje sunmak.
